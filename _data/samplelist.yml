@@ -2,10 +2,10 @@ docs_list_title: ACME Documentation
 docs:
 
 - title: Introduction
-  url: introduction.html
+  url: introduction
 
 - title: Configuration
-  url: configuration.html
+  url: configuration
 
 - title: Deployment
-  url: deployment.html
+  url: deployment
