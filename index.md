@@ -1,10 +1,5 @@
 Just a test
 
-With
-
-GitHub Pages
-
-and push
 
 <h2>{{ site.data.samplelist.docs_list_title }}</h2>
 <ul>
