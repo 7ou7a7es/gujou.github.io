@@ -1,8 +1,11 @@
 ---
 ---
 
-@import "{{ site.theme }}";
 aside#sidebar {
   font-size: 15px;
-  }
+}
+
+@import "{{ site.theme }}";
+
+
   
