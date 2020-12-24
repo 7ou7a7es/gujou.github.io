@@ -1,6 +1,11 @@
-@import "{{ site.theme }}";
+---
+---
 
+@import "{{ site.theme }}";
 aside#sidebar {
   font-size: 15px ! important;
   color: #474747;
+}
+aside#sidebar a {
+  font-size: 15px ! important;
 }
