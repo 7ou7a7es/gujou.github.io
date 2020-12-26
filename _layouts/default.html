@@ -37,7 +37,7 @@
           
           {% for item in site.data.articles.list %}
             <p id="{{ item.anchor }}"><h2>{{ item.title }}</h2>
-            <img src="{{ item.anchor }}" alt="{{ item.title }}"/>
+            <img src="{{ item.img }}" alt="{{ item.title }}"/> <br/>
             {{ item.desc }}</p>
           {% endfor %}
         </section>
