@@ -7,11 +7,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
 
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-
-{% seo %}
+    {% seo %}
   </head>
 
   <body>
@@ -38,7 +34,7 @@
           {% for item in site.data.articles.list %}
             <p id="{{ item.anchor }}">
               <h1>{{ item.title }}</h1>
-              <h2>{{ item.desc }}</2>
+              <h2>{{ item.desc }}</h2>
               <img src="{{ item.img }}" alt="{{ item.title }}"/>
             </p>
           {% endfor %}
