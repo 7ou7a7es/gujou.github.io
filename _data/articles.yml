@@ -1,9 +1,11 @@
 list:
 
 - title: CI/CD
+  anchor: CICD
   svg: /svg/CICD.svg
   desc: simple continuous integration / continuous delivery (or deployment)
   
 - title: pouette
+  anchor: pou3tt3
   svg: https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics#/media/Fichier:SVG_logo.svg
   desc: tralala pouette pouette
