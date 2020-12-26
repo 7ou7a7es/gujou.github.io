@@ -34,13 +34,19 @@
       <div class="inner clearfix">
         <section id="main-content">
           {{ content }}
+          
+          {% for item in site.data.articles.list %}
+            <p id="{{ item.anchor }}"><h2>{{ item.title }}</h2>
+            <img src="{{ item.anchor }}" alt="{{ item.title }}"/>
+            {{ item.desc }}</p>
+          {% endfor %}
         </section>
 
         <aside id="sidebar">
           <h2>{{ site.data.sidebar.docs_list_title }}</h2>
           <nav>
-            {% for item in site.data.sidebar.docs %}
-              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% for item in site.data.articles.list %}
+              <li><a href="#{{ item.anchor }}">{{ item.title }}</a></li>
             {% endfor %}
           </nav>
         </aside>
