@@ -4,8 +4,11 @@
 @import "{{ site.theme }}";
 aside#sidebar {
   font-size: 15px ! important;
-  width: unset;
+  width: 20% ! important;
 }
 .inner {
-  width: 65%;
+  width: 65% ! important;
+}
+#main-content {
+  width: 70% ! important;
 }
