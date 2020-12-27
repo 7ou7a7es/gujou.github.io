@@ -1,11 +1,28 @@
 list:
 
 - title: CI/CD
-  anchor: CICD
+  anchor: cicd
   img: /svg/CICD.svg
   desc: Simple continuous integration / continuous delivery (or deployment)
   
-- title: pouette
-  anchor: pou3tt3
-  img: https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31
-  desc: Tralala pouette pouette
+- title: SAST
+  anchor: sast
+  img: /svg/SAST.svg
+  desc: Static Application Security Testing (white box security testing)
+  
+- title: DAST
+  anchor: dast
+  img: /svg/DAST.svg
+  desc: Dynamic Application Security Testing (black box security testing)
+  
+ - title: IAST
+  anchor: iast
+  img: /svg/IAST.svg
+  desc: Interactive Application Security Testing (grey box security testing)
+  
+ - title: RASP
+  anchor: rasp
+  img: /svg/RASP.svg
+  desc: Runtime Application Security Protection (embedded security system)
+
+
