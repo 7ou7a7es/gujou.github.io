@@ -15,12 +15,12 @@ list:
   img: /svg/DAST.svg
   desc: Dynamic Application Security Testing (black box security testing)
   
- - title: IAST
+- title: IAST
   anchor: iast
   img: /svg/IAST.svg
   desc: Interactive Application Security Testing (grey box security testing)
   
- - title: RASP
+- title: RASP
   anchor: rasp
   img: /svg/RASP.svg
   desc: Runtime Application Security Protection (embedded security system)
