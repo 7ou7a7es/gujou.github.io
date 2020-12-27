@@ -2,6 +2,13 @@
 ---
 
 @import "{{ site.theme }}";
+header {
+  position: fixed;
+  z-index: +1; 
+  width: 100vw;
+  heigth: 20vh;
+  top: 0;
+}
 aside#sidebar {
   font-size: 15px ! important;
   width: 20% ! important;
@@ -9,12 +16,10 @@ aside#sidebar {
 .inner {
   width: 65% ! important;
 }
+#content-wrapper {
+  padding-top: 20vh;
+}
 #main-content {
   width: 70% ! important;
 }
-header {
-  position: fixed;
-  z-index: +1; 
-  width: 100%;
-  top: 0;
-}
+
