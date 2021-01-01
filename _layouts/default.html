@@ -26,11 +26,11 @@
           {{ content }}
           
           {% for item in site.data.articles.list %}
-            <p id="{{ item.anchor }}">
+            <article id="{{ item.anchor }}">
               <h1>{{ item.title }}</h1>
               <h2>{{ item.desc }}</h2>
               <img src="{{ item.img }}" alt="{{ item.title }}"/>
-            </p>
+            </article>
           {% endfor %}
         </section>
 
