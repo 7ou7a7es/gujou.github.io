@@ -98,8 +98,10 @@ header h2 {
 
 aside#sidebar {
   float: right;
+  position: fixed;
+  right: 0;
   width: 20vw;
-  min-height: 504px;
+  height: 100%;
   padding-left: 20px;
   font-size: 15px;
   line-height: 1.3;
