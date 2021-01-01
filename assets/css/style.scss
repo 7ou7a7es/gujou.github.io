@@ -61,6 +61,13 @@ a:active{
   outline: 0;
 }
 
+anchor {
+  display: block;
+  position: relative;
+  padding-top: 20vh;
+  visibility: hidden;
+}
+
 header {
   position: fixed;
   z-index: +1; 
