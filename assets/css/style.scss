@@ -39,9 +39,15 @@ summary {
 
 p {
   margin-top: 0;
+  margin-bottom: 20px;
+}
+
+p a {
+  font-weight: 400;
 }
 
 a {
+  text-decoration: none;
   color: #2879d0;
   background-color: transparent;
 }
@@ -315,7 +321,7 @@ form {
 #main-content h2 {
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
   color: #474747;
   text-indent: 4px;
@@ -331,7 +337,7 @@ form {
   margin-top: 24px;
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 18px;
+  font-size: 1em;
   font-weight: bold;
   color: #474747;
   text-indent: 3px;
@@ -347,7 +353,7 @@ form {
 #main-content h4 {
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 15px;
+  font-size: 0.8em;
   font-weight: bold;
   color: #474747;
   text-indent: 3px;
@@ -358,46 +364,6 @@ h4:before {
   margin-left: -2.8em;
   content: "////";
   color: #9ddcff;
-}
-
-#main-content h5 {
-  margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 14px;
-  color: #474747;
-  text-indent: 3px;
-}
-h5:before {
-  padding-right: 0.3em;
-  margin-left: -3.2em;
-  content: "/////";
-  color: #9ddcff;
-}
-
-#main-content h6 {
-  margin-bottom: 8px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: .8em;
-  color: #474747;
-  text-indent: 3px;
-}
-h6:before {
-  padding-right: 0.3em;
-  margin-left: -3.7em;
-  content: "//////";
-  color: #9ddcff;
-}
-
-p {
-  margin-bottom: 20px;
-}
-
-a {
-  text-decoration: none;
-}
-
-p a {
-  font-weight: 400;
 }
 
 blockquote {
