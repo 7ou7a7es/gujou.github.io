@@ -6,10 +6,7 @@ var span = document.getElementById("modal-close");
 var container = document.querySelector("#main-content");
 var images = container.querySelectorAll("img");
 
-console.log("container : "+container);
-
 images.forEach((img) => {
-    console.log("img : "+img);
     img.addEventListener('click', () => {
         modal.style.display = "block";
         modalImg.src = img.src;
