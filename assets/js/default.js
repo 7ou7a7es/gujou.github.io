@@ -3,8 +3,7 @@ var modalImg = document.getElementById("modal-content");
 var captionText = document.getElementById("modal-caption");
 var span = document.getElementById("modal-close");
 
-var container = document.querySelector("#main-content");
-var images = container.querySelectorAll("img");
+var images = document.querySelectorAll(".img-content");
 
 images.forEach((img) => {
     img.addEventListener('click', () => {
