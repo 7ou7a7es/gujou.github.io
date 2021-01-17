@@ -3,7 +3,7 @@ var modalImg = document.getElementById("modal-content");
 var captionText = document.getElementById("modal-caption");
 var span = document.getElementById("modal-close");
 
-var container = userList.querySelector("#main-content");
+var container = document.querySelector("#main-content");
 var images = container.querySelectorAll("img");
 
 console.log("container : "+container);
